@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "SelectedItem.tag.CustomModelData",
+        "target": "RawModel",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "magical_control:"
+    },
+    "ops": [
+      {
+        "source": "temp.AbsTime",
+        "target": "UsedTime",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "SelectedItem.tag.ChargingModel",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{isCT:true}"
+  }
+]
