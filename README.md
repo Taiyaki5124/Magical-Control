@@ -21,7 +21,7 @@ CTを有効化するには人参棒に以下の5つのNBTタグを設定する�
 
 ### マナ
 
-```/function magical_control:mana/decrease/```を実行することでCTを開始できます  
+```/function magical_control:mana/decrease/```を実行することでマナを消費できます  
 マナを使うにもCTと同様に人参棒に以下の3つのNBTタグを設定する必要があります。
 
 ---
