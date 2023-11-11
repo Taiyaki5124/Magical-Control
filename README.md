@@ -37,5 +37,5 @@ CTを有効化するにはアイテムに以下の5つのNBTタグを設定す�
 
 ### テスター
 
-```/function magical_control:tester/```を実行することでマナが足りていてクールタイムが終わっている場合、  
+```/function magical_control:tester/```を実行することで「マナが足りている」「クールタイムが終わっている」「このアイテムは魔法である」の3つすべてを満たす場合、  
 ```storage magical_control: Data.Return```にtrueを返してくれます。
