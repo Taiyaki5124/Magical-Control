@@ -8,7 +8,7 @@ scoreboard objectives add Mana.timer.increaseAmount dummy
 scoreboard objectives add Mana.value.increaseAmount dummy
 
 #ScoreInitialize
-scoreboard players set $Abs.Time MagicalControl.time 0
+scoreboard players set $Abs.time MagicalControl.time 0
 scoreboard players set $100 Mana.value 100
 
 #Data
