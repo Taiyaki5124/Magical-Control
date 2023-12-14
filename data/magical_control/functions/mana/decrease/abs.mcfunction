@@ -4,5 +4,6 @@
 #
 #@within function magical_control:mana/decrease/
 
-execute store result score $DecreaseAmount Mana.value run data get entity @s SelectedItem.tag.Mana.Amount
-scoreboard players operation @s Mana.value -= $DecreaseAmount Mana.value
+data modify storage magical_control: temp.Api.Type set value "remove"
+data modify storage magical_control: temp.Api.Value set from entity @s SelectedItem.tag.Mana.Amount
+function magical_control:api/mana/ with storage magical_control: temp.Api
