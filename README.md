@@ -57,7 +57,7 @@ __※リソースパックを導入すると通常のHPバーと白色のボス�
 ```storage magical_control: Data.Return```にtrueを返します。
 
 #### マナ
-`/function magical_control:api/mana`を実行することでマナを増減させることができます。  
+`/function magical_control:api/mana/`を実行することでマナを増減させることができます。  
 この関数はマクロ関数になっており引数は以下の2つです
 | 引数名 | 型 | 説明 |
 | ---- | ---- | ---- |
